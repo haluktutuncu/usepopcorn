@@ -1,13 +1,20 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+import React, { useState } from "react";
+import ReactDOM from "react-dom/client";
+import "./index.css";
+import App from "./App";
+import reportWebVitals from "./reportWebVitals";
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
+const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
     <App />
+    {/*  <StarRating
+      maxRating={5}
+      messages={["terrible", "bad", "okay", "good", "amazing"]}
+      defaultRating={3}
+    />
+    <StarRating maxRating={10} color="#000" size={60} />
+    <Test />*/}
   </React.StrictMode>
 );
 
